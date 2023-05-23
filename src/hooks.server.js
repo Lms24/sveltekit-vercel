@@ -3,7 +3,7 @@ import { handleErrorWithSentry, sentryHandle } from "@sentry/sveltekit";
 import * as Sentry from "@sentry/sveltekit";
 
 Sentry.init({
-  dsn: "https://29ac25d883fb49279ebca1dd3a2fa72b@o1151230.ingest.sentry.io/6361018",
+  dsn: "https://d390559ff0764c43b0939b2b51769e8a@o447951.ingest.sentry.io/4505149331472384",
   tracesSampleRate: 1.0,
   debug: true,
 });
