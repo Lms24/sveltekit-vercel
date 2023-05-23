@@ -24,6 +24,18 @@
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
 				<a href="/sverdle">Sverdle</a>
+			</li>			
+			<li aria-current={$page.url.pathname.startsWith('/sentry-example') ? 'page' : undefined}>
+				<a href="/sentry-example">UI error</a>
+			</li>
+			<li aria-current={$page.url.pathname.startsWith('/server-error') ? 'page' : undefined}>
+				<a href="/server-error">Server error</a>
+			</li>
+			<li aria-current={$page.url.pathname.startsWith('/uload-error') ? 'page' : undefined}>
+				<a href="/uload-error">ULoad error</a>
+			</li>
+			<li aria-current={$page.url.pathname.startsWith('/api-error') ? 'page' : undefined}>
+				<a href="/api-error">API error</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
