@@ -18,7 +18,7 @@
 			</picture>
 		</span>
 
-		to Sentry on Vercel Hell
+		to Sentry on Vercel Hell (2)
 	</h1>
 
 	<Counter />
