@@ -4,8 +4,8 @@
   "scripts": {
     "clean": "rm -rf node_modules .svelte-kit && yarn",
     "dev": "vite dev",
-    "build:only": "vite build",
-    "build": "rm -rf .svelte-kit .vercel/output && sh copy-sentry-over.sh && sh copy-sentry-into-node-modules.sh && vite build",
+    "build": "vite build",
+    "build:vercel": "rm -rf .svelte-kit .vercel/output && sh copy-sentry-over.sh && sh copy-sentry-into-node-modules.sh && vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
