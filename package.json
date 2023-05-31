@@ -32,7 +32,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@sentry/sveltekit": "^7.52.1",
+    "@sentry/sveltekit": "./sentry-sveltekit-7.53.1.tgz",
     "magicast": "^0.2.8"
   }
 }
