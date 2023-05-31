@@ -13,3 +13,6 @@ vite.config.ts.timestamp-*
 
 # Sentry
 .sentryclirc
+
+
+copied-sentry
