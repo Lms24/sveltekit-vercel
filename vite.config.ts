@@ -9,13 +9,6 @@ export default defineConfig({
   plugins: [
     sentrySvelteKit({
       autoUploadSourceMaps: true,
-      sourceMapsUploadOptions: {
-        include: [
-          { paths: [`.svelte-kit/output/client`] },
-          { paths: [`.svelte-kit/output/server/chunks`] },
-          { paths: [`.svelte-kit/output/server`], ignore: ["chunks/**"] },
-        ],
-      },
     }),
     sveltekit(),
   ],
